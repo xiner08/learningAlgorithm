@@ -26,13 +26,13 @@ performance 接口可以获取到当前页面中与性能相关的信息
 
 ![](../images/performance/navigation.jpg)
 
-  -  timing
-    - connectStart	HTTP请求开始向服务器发送时的时间戳，如果是持久连接，则等同于fetchStart。
-    - domComplete	当前网页DOM结构生成时，也就是Document.readyState属性变为“complete”,并且相应的readystatechange事件触发时的时间戳。 
-    - domContentLoadedEventEnd	当前网页DOMContentLoaded事件发生时，也就是DOM结构解析完毕、所有脚本运行完成时的时间戳。
-    - domContentLoadedEventStart	当前网页DOMContentLoaded事件发生时，也就是DOM结构解析完毕、所有脚本开始运行时的时间戳。
-    - domInteractive	当前网页DOM结构结束解析、开始加载内嵌资源时，也就是Document.readyState属性变为“interactive”、并且相应的readystatechange事件触发时的时间戳。
-    - domLoading	当前网页DOM结构开始解析时,也就是Document.readyState属性变为“loading”、并且相应的readystatechange事件触发时的时间戳。
+  - timing 记录页面渲染各个时间段所花费的时间
+    - connectStart	HTTP请求开始向服务器发送时的时间戳，如果是持久连接，则等同于fetchStart
+    - domComplete	当前网页DOM结构生成时，也就是Document.readyState属性变为“complete”,并且相应的readystatechange事件触发时的时间戳
+    - domContentLoadedEventEnd	当前网页DOMContentLoaded事件发生时，也就是DOM结构解析完毕、所有脚本运行完成时的时间戳
+    - domContentLoadedEventStart	当前网页DOMContentLoaded事件发生时，也就是DOM结构解析完毕、所有脚本开始运行时的时间戳
+    - domInteractive	当前网页DOM结构结束解析、开始加载内嵌资源时，也就是Document.readyState属性变为“interactive”、并且相应的readystatechange事件触发时的时间戳
+    - domLoading	当前网页DOM结构开始解析时,也就是Document.readyState属性变为“loading”、并且相应的readystatechange事件触发时的时间戳
     - domainLookupEnd	域名查询结束时的时间戳。如果使用持久连接，或者从本地缓存获取信息的，等同于fetchStart
     - domainLookupStart	域名查询开始时的时间戳。如果使用持久连接，或者从本地缓存获取信息的，等同于fetchStart
     - fetchStart	浏览器准备通过HTTP请求去获取页面的时间戳。在检查应用缓存之前发生。
@@ -43,10 +43,10 @@ performance 接口可以获取到当前页面中与性能相关的信息
     - redirectStart	第一次重定向开始时的时间戳，如果没有重定向，或者上次重定向不是同源的。则为0
     - requestStart	浏览器向服务器发出HTTP请求时（或开始读取本地缓存时）的时间戳。
     - responseEnd	浏览器从服务器收到（或从本地缓存读取）最后一个字节时（如果在此之前HTTP连接已经关闭，则返回关闭时）的时间戳  
-    - responseStart	浏览器从服务器收到（或从本地缓存读取）第一个字节时的时间戳。
-    - secureConnectionStart	浏览器与服务器开始安全链接的握手时的时间戳。如果当前网页不要求安全连接，则返回0。
-    - unloadEventEnd	如果前一个网页与当前网页属于同一个域下，则表示前一个网页的unload回调结束时的时间戳。如果没有前一个网页，或者之前的网页跳转不是属于同一个域内，则返回值为0。
-    - unloadEventStart	如果前一个网页与当前网页属于同一个域下，则表示前一个网页的unload事件发生时的时间戳。如果没有前一个网页，或者之前的网页跳转不是属于同一个域内，则返回值为0。
+    - responseStart	浏览器从服务器收到（或从本地缓存读取）第一个字节时的时间戳
+    - secureConnectionStart	浏览器与服务器开始安全链接的握手时的时间戳。如果当前网页不要求安全连接，则返回0
+    - unloadEventEnd	如果前一个网页与当前网页属于同一个域下，则表示前一个网页的unload回调结束时的时间戳。如果没有前一个网页，或者之前的网页跳转不是属于同一个域内，则返回值为0
+    - unloadEventStart	如果前一个网页与当前网页属于同一个域下，则表示前一个网页的unload事件发生时的时间戳。如果没有前一个网页，或者之前的网页跳转不是属于同一个域内，则返回值为0
 
 ![](../images/performance/timing.jpg)
 
