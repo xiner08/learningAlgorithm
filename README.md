@@ -12,11 +12,12 @@
 - [leetcode594-最长和谐子序列](./leetcode/leetcode594-最长和谐子序列.md)
 - [leetcode384-打乱数组](./leetcode/leetcode384-打乱数组.md)
 - [leetcode859-亲密字符串](./leetcode/leetcode859-亲密字符串.md)
-- [leetcode423-从英文中重选数字](./leetcode/leetcode423-从英文中重选数字.md)
+- [leetcode423-从英文中重建数字](./leetcode/leetcode423-从英文中重建数字.md)
 - [leetcode118-杨辉三角](./leetcode/leetcode118-杨辉三角.md)
 
 ### ====== 设计模式 ====== 
 - [单例模式](./设计模式/单例模式.md)
 
 ### ====== 项目优化 ====== 
-- [总结](./优化/vue项目优化.md)
+- [vue项目优化](./优化/vue项目优化.md)
+- [performance性能监控](./优化/performance性能监控.md)
