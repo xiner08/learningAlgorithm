@@ -1,9 +1,13 @@
 ### 学习永不止境！！！
 
+### ====== js基础篇 ====== 
+- [数组遍历](./js基础/数组遍历.md)
+
 ### ====== js进阶篇 ====== 
 - [require_context的使用](./js进阶/require_context的合理使用.md)
 
 ### ====== leetcode篇 ====== 
+- [leetcode458-可怜的小猪](./leetcode/leetcode458-可怜的小猪.md)
 - [leetcode217-存在重复元素](./leetcode/leetcode217-存在重复元素.md)
 - [leetcode53-最大子序和](./leetcode/leetcode53-最大子序和.md)
 - [leetcode318-最大单词长度乘积](./leetcode/leetcode318-最大单词长度乘积.md)
