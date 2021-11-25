@@ -19,12 +19,11 @@
 
 ##### 示例 3：
 
-  输入：buckets = 4, minutesToDie = 15, minutesToTest = 30
+    输入：buckets = 4, minutesToDie = 15, minutesToTest = 30
 
-  输出：2
+    输出：2
 
 ##### 提示：
-
     1 <= buckets <= 1000
     1 <= minutesToDie <= minutesToTest <= 100
 
