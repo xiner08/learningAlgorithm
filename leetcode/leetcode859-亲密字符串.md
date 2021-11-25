@@ -5,19 +5,19 @@
 
 示例 1：
 
-  输入：s = "ab", goal = "ba"
+    输入：s = "ab", goal = "ba"
 
-  输出：true
+    输出：true
 
-  解释：你可以交换 s[0] = 'a' 和 s[1] = 'b' 生成 "ba"，此时 s 和 goal 相等。
+    解释：你可以交换 s[0] = 'a' 和 s[1] = 'b' 生成 "ba"，此时 s 和 goal 相等。
 
 示例 2：
 
-  输入：s = "ab", goal = "ab"
+    输入：s = "ab", goal = "ab"
 
-  输出：false
+    输出：false
 
-  解释：你只能交换 s[0] = 'a' 和 s[1] = 'b' 生成 "ba"，此时 s 和 goal 不相等。
+    解释：你只能交换 s[0] = 'a' 和 s[1] = 'b' 生成 "ba"，此时 s 和 goal 不相等。
 
 ### 解题思路：s的长度小于2 或者 两者长度不相等则返回false
 - 当s和goal相等时，且s中有重复数字，则返回true
