@@ -7,9 +7,11 @@
 ### ====== js进阶篇 ====== 
 - [require_context的使用](./js进阶/require_context的合理使用.md)
 
-### ====== leetcode篇 ====== 11
+### ====== leetcode篇 ====== 12
+- [leetcode786-第k个最小的素数分数](./leetcode/leetcode786-第k个最小的素数分数.md)
+- [leetcode519-随机翻转矩阵](./leetcode/leetcode519-随机翻转矩阵.md)
 - [leetcode700-二叉搜索树中的搜索](./leetcode/leetcode700-二叉搜索树中的搜索.md)
-- [leetcode118-杨辉三角](./leetcode/leetcode118-杨辉三角.md)
+- [leetcode118-杨辉三角](./letcode/leetcode118-杨辉三角.md)
 - [leetcode458-可怜的小猪](./leetcode/leetcode458-可怜的小猪.md)
 - [leetcode217-存在重复元素](./leetcode/leetcode217-存在重复元素.md)
 - [leetcode53-最大子序和](./leetcode/leetcode53-最大子序和.md)
