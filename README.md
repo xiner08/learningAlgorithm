@@ -9,7 +9,6 @@
 
 ### ====== leetcode篇 ====== 12
 - [leetcode786-第k个最小的素数分数](./leetcode/leetcode786-第k个最小的素数分数.md)
-- [leetcode519-随机翻转矩阵](./leetcode/leetcode519-随机翻转矩阵.md)
 - [leetcode700-二叉搜索树中的搜索](./leetcode/leetcode700-二叉搜索树中的搜索.md)
 - [leetcode118-杨辉三角](./letcode/leetcode118-杨辉三角.md)
 - [leetcode458-可怜的小猪](./leetcode/leetcode458-可怜的小猪.md)
