@@ -7,7 +7,9 @@
 ### ====== js进阶篇 ====== 
 - [require_context的使用](./js进阶/require_context的合理使用.md)
 
-### ====== leetcode篇 ====== 12
+### ====== leetcode篇 ====== 14
+- [leetcode400-第N位数字](./leetcode/leetcode400-第N位数字.md)
+- [leetcode1446-连续字符](./leetcode/leetcode1446-连续字符.md)
 - [leetcode786-第k个最小的素数分数](./leetcode/leetcode786-第k个最小的素数分数.md)
 - [leetcode700-二叉搜索树中的搜索](./leetcode/leetcode700-二叉搜索树中的搜索.md)
 - [leetcode118-杨辉三角](./letcode/leetcode118-杨辉三角.md)
