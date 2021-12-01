@@ -12,7 +12,7 @@
 - [leetcode1446-连续字符](./leetcode/leetcode1446-连续字符.md)
 - [leetcode786-第k个最小的素数分数](./leetcode/leetcode786-第k个最小的素数分数.md)
 - [leetcode700-二叉搜索树中的搜索](./leetcode/leetcode700-二叉搜索树中的搜索.md)
-- [leetcode118-杨辉三角](./letcode/leetcode118-杨辉三角.md)
+- [leetcode118-杨辉三角](./leetcode/leetcode118-杨辉三角.md)
 - [leetcode458-可怜的小猪](./leetcode/leetcode458-可怜的小猪.md)
 - [leetcode217-存在重复元素](./leetcode/leetcode217-存在重复元素.md)
 - [leetcode53-最大子序和](./leetcode/leetcode53-最大子序和.md)
