@@ -10,44 +10,51 @@
     输入：buckets = 1000, minutesToDie = 15, minutesToTest = 60
 
     输出：5
+
 ##### 示例 2：
 
     输入：buckets = 4, minutesToDie = 15, minutesToTest = 15
 
     输出：2
+
 ##### 示例 3：
 
-    输入：buckets = 4, minutesToDie = 15, minutesToTest = 30
+  输入：buckets = 4, minutesToDie = 15, minutesToTest = 30
 
-    输出：2
+  输出：2
+
 ##### 提示：
+
     1 <= buckets <= 1000
     1 <= minutesToDie <= minutesToTest <= 100
 
 
 ### 解题思路 ： 数学题，要用到数学的思想 --- 每个小猪都可以喝混合水实现 
   这道题初看的时候，很多人会纠结：到底需要多少只小猪，而每只小猪又应该具体如何喝水才能判断出哪只水桶有***？
+
   这道题最开始不要去关注细节，去想到底应该怎么喂水。而是应该先思考在考察哪方面的问题，数组、链表、二叉树还是数学？那么仔细思考就能得出结论，本质上在考察数学中的 进制 问题。
+
   举例说明：
-  
+
   假设：总时间 minutesToTest = 60，死亡时间 minutesToDie = 15，pow(x, y) 表示 x 的 y 次方，ceil(x)表示 x 向上取整
+
   当前有 1 只小猪，最多可以喝 times = minutesToTest / minutesToDie = 4 次水，最多可以喝 4 次水，能够携带 base = times + 1 = 5 个的信息量，也就是（便于理解从 0 开始）：
-  
+
   (1) 喝 0 号死去，0 号桶水有毒
-  
+
   (2) 喝 1 号死去，1 号桶水有毒
-  
+
   (3) 喝 2 号死去，2 号桶水有毒
-  
+
   (4) 喝 3 号死去，3 号桶水有毒
-  
+
   (5) 喝了上述所有水依然活蹦乱跳，4 号桶水有毒
-  
+
   结论是： 1 只小猪最多能够验证 5 桶水中哪只水桶含有***，当 buckets ≤ 5 时，answer = 1
+
+  那么2 只小猪可以验证的范围最多到多少呢？
   
-  那么2 只小猪可以验证的范围最多到多少呢？我们把每只小猪携带的信息量看成是 base进制数，
-  
-  2 只小猪的信息量就是 pow(base, 2) = pow(5, 2) = 25，所以当 5 ≤ buckets ≤ 25时，anwser = 2 那么可以得到公式关系：pow(base, ans) ≥ buckets，取对数后即为：ans ≥ log(buckets) / log(base)，因为 ans 为整数，所以 ans = ceil(log(buckets) / log(base))
+  我们把每只小猪携带的信息量看成是 base进制数，2 只小猪的信息量就是 pow(base, 2) = pow(5, 2) = 25，所以当 5 ≤ buckets ≤ 25时，anwser = 2 那么可以得到公式关系：pow(base, ans) ≥ buckets，取对数后即为：ans ≥ log(buckets) / log(base)，因为 ans 为整数，所以 ans = ceil(log(buckets) / log(base))
 
 ```js
 /**
