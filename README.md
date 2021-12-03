@@ -1,13 +1,14 @@
 ### 学习永不止境！！！
 
 ### ====== js基础篇 ====== 
-- [数组的方法](./js基础/数组method.md)
 - [数组遍历](./js基础/数组遍历.md)
 
 ### ====== js进阶篇 ====== 
 - [require_context的使用](./js进阶/require_context的合理使用.md)
 
-### ====== leetcode篇 ====== 15
+### ====== leetcode篇 ====== 17
+- [leetcode27-移除元素](./leetcode/leetcode27-移除元素.md)
+- [leetcode1005-k次取反后最大化的数组和](./leetcode/leetcode1005-k次取反后最大化的数组和.md)
 - [leetcode506-相对名次](./leetcode/leetcode506-相对名次.md)
 - [leetcode400-第N位数字](./leetcode/leetcode400-第N位数字.md)
 - [leetcode1446-连续字符](./leetcode/leetcode1446-连续字符.md)
