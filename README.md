@@ -6,7 +6,10 @@
 ### ====== js进阶篇 ====== 
 - [require_context的使用](./js进阶/require_context的合理使用.md)
 
-### ====== leetcode篇 ====== 17
+### ====== leetcode篇 ====== 20
+- [leetcode1816-截断句子](./leetcode/leetcode1816-截断句子.md)
+- [leetcode372-超级次方](./leetcode/leetcode372-超级次方.md)
+- [leetcode383-赎金信](./leetcode/leetcode383-赎金信.md)
 - [leetcode27-移除元素](./leetcode/leetcode27-移除元素.md)
 - [leetcode1005-k次取反后最大化的数组和](./leetcode/leetcode1005-k次取反后最大化的数组和.md)
 - [leetcode506-相对名次](./leetcode/leetcode506-相对名次.md)
