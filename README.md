@@ -6,7 +6,8 @@
 ### ====== js进阶篇 ====== 
 - [require_context的使用](./js进阶/require_context的合理使用.md)
 
-### ====== leetcode篇 ====== 20
+### ====== leetcode篇 ====== 21
+- [leetcode689-三个无重复子数组的最大和](./leetcode/leetcode689-三个无重复子数组的最大和.md)
 - [leetcode1816-截断句子](./leetcode/leetcode1816-截断句子.md)
 - [leetcode372-超级次方](./leetcode/leetcode372-超级次方.md)
 - [leetcode383-赎金信](./leetcode/leetcode383-赎金信.md)
