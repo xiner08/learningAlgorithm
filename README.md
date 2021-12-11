@@ -6,7 +6,8 @@
 ### ====== js进阶篇 ====== 
 - [require_context的使用](./js进阶/require_context的合理使用.md)
 
-### ====== leetcode篇 ====== 22
+### ====== leetcode篇 ====== 23
+- [leetcode748-最短补全词](./leetcode/leetcode748-最短补全词.md)
 - [leetcode794-有效的井字游戏](./leetcode/leetcode794-有效的井字游戏.md)
 - [leetcode689-三个无重复子数组的最大和](./leetcode/leetcode689-三个无重复子数组的最大和.md)
 - [leetcode1816-截断句子](./leetcode/leetcode1816-截断句子.md)
