@@ -6,7 +6,8 @@
 ### ====== js进阶篇 ====== 
 - [require_context的使用](./js进阶/require_context的合理使用.md)
 
-### ====== leetcode篇 ====== 25
+### ====== leetcode篇 ====== 26
+- [leetcode1518-换酒问题](./leetcode/leetcode1518-换酒问题.md)
 - [leetcode851-喧闹和富有](./leetcode/leetcode851-喧闹和富有.md)
 - [leetcode807-保持城市天际线](./leetcode/leetcode807-保持城市天际线.md)
 - [leetcode748-最短补全词](./leetcode/leetcode748-最短补全词.md)
