@@ -6,7 +6,7 @@
 ### ====== js进阶篇 ====== 
 - [require_context的使用](./js进阶/require_context的合理使用.md)
 
-### ====== leetcode篇 ====== 27
+### ====== leetcode每日一题 ====== 27
 - [leetcode1154-一年中的第几天](./leetcode/leetcode1154-一年中的第几天.md)
 - [leetcode1518-换酒问题](./leetcode/leetcode1518-换酒问题.md)
 - [leetcode851-喧闹和富有](./leetcode/leetcode851-喧闹和富有.md)
@@ -35,6 +35,9 @@
 - [leetcode859-亲密字符串](./leetcode/leetcode859-亲密字符串.md)
 - [leetcode423-从英文中重建数字](./leetcode/leetcode423-从英文中重建数字.md)
 
+### ====== leetcode二分查找 ====== 1
+- [leetcode34-在排序数组中查找元素的第一个和最后一个位置](./leetcode/二分查找/leetcode34-在排序数组中查找元素的第一个和最后一个位置.md)
+- 
 ### ====== 设计模式 ====== 
 - [单例模式](./设计模式/单例模式.md)
 
