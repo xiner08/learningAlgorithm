@@ -29,6 +29,7 @@
 - [leetcode859-亲密字符串](./leetcode/leetcode859-亲密字符串.md)
 - [leetcode423-从英文中重建数字](./leetcode/leetcode423-从英文中重建数字.md)
 
-### ====== leetcode二分查找 ====== 2
+### ====== leetcode二分查找 ====== 3
+- [leetcode167-两数之和II-输入有序数组](./leetcode/二分查找/leetcode167-两数之和II-输入有序数组.md)
 - [leetcode35-搜索插入位置](./leetcode/二分查找/leetcode35-搜索插入位置.md)
 - [leetcode34-在排序数组中查找元素的第一个和最后一个位置](./leetcode/二分查找/leetcode34-在排序数组中查找元素的第一个和最后一个位置.md)
