@@ -1,4 +1,5 @@
-### ====== leetcode每日一题 ====== 28
+### ====== leetcode每日一题 ====== 29
+- [leetcode1044-最长重复子串](./leetcode/leetcode1044-最长重复子串.md)
 - [leetcode686-重复叠加字符串匹配](./leetcode/leetcode686-重复叠加字符串匹配.md)
 - [leetcode1154-一年中的第几天](./leetcode/leetcode1154-一年中的第几天.md)
 - [leetcode1518-换酒问题](./leetcode/leetcode1518-换酒问题.md)
