@@ -1,4 +1,5 @@
-### ====== leetcode每日一题 ====== 30
+### ====== leetcode每日一题 ====== 31
+- [leetcode1078-Bigram分词](./leetcode/leetcode1078-Bigram分词.md)
 - [leetcode1705-吃苹果的最大数目](./leetcode/leetcode1705-吃苹果的最大数目.md)
 - [leetcode1044-最长重复子串](./leetcode/leetcode1044-最长重复子串.md)
 - [leetcode686-重复叠加字符串匹配](./leetcode/leetcode686-重复叠加字符串匹配.md)
