@@ -1,4 +1,5 @@
-### ====== leetcode每日一题 ====== 31
+### ====== leetcode每日一题 ====== 32
+- [leetcode825-适龄的朋友](./leetcode/leetcode825-适龄的朋友.md)
 - [leetcode1078-Bigram分词](./leetcode/leetcode1078-Bigram分词.md)
 - [leetcode1705-吃苹果的最大数目](./leetcode/leetcode1705-吃苹果的最大数目.md)
 - [leetcode1044-最长重复子串](./leetcode/leetcode1044-最长重复子串.md)
