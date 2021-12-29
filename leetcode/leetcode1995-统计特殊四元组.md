@@ -39,3 +39,29 @@ var countQuadruplets = function(nums) {
     return res
 };
 ```
+
+### 解题思路 ： a + b = d - c
+```js
+/**
+ * @param {number[]} nums
+ * @return {number}
+ */
+var countQuadruplets = function(nums) {
+    const cnts = new Map()
+    let ans = 0
+    for(let i=1;i<nums.length-2;i++){
+      for(let j=0;j<i;j++)
+        if(cnts.has(nums[i] + nums[j])){
+            cnts.set(nums[i] + nums[j], cnts.get(nums[i] + nums[j]) + 1)
+        }
+        else{
+            cnts.set(nums[i] + nums[j], 1)
+        }
+      for(let j=i+2;j<nums.length;j++)
+        if(cnts.has(nums[j] - nums[i+1])){
+            ans += cnts.get(nums[j] - nums[i+1])
+        }
+    }
+    return ans
+};
+```
