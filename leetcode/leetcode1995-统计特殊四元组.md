@@ -39,22 +39,3 @@ var countQuadruplets = function(nums) {
     return res
 };
 ```
-
-### 解题思路 ： 利用自带的方法可以快速实现
-
-```js
-/**
- * @param {string} s
- * @param {number} k
- * @return {string}
- */
-var truncateSentence = function(s, k) {
-    let arr = s.split(' ')
-    if (k === 1) return arr[0]
-    if (k === arr.length) return s
-    return arr.slice(0, k).join(' ')
-
-    // 或者直接实现，效率很低
-    return s.split(' ').slice(0,k).join(' ')
-};
-```
