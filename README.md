@@ -1,4 +1,5 @@
-### ====== leetcode每日一题 ====== 32
+### ====== leetcode每日一题 ====== 34
+- [leetcode747-至少是其他数字两倍的最大数](./leetcode/leetcode747-至少是其他数字两倍的最大数.md)
 - [leetcode1995-统计特殊四元组](./leetcode/leetcode1995-统计特殊四元组.md)
 - [leetcode825-适龄的朋友](./leetcode/leetcode825-适龄的朋友.md)
 - [leetcode1078-Bigram分词](./leetcode/leetcode1078-Bigram分词.md)
