@@ -1,4 +1,5 @@
-### ====== leetcode每日一题 ====== 34
+### ====== leetcode每日一题 ====== 35
+- [leetcode373-查找和最小的k对数](./leetcode/leetcode373-查找和最小的k对数.md)
 - [leetcode747-至少是其他数字两倍的最大数](./leetcode/leetcode747-至少是其他数字两倍的最大数.md)
 - [leetcode1995-统计特殊四元组](./leetcode/leetcode1995-统计特殊四元组.md)
 - [leetcode825-适龄的朋友](./leetcode/leetcode825-适龄的朋友.md)
