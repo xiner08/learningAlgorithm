@@ -1,4 +1,5 @@
-### ====== leetcode每日一题 ====== 35
+### ====== leetcode每日一题 ====== 36
+- [leetcode1220-统计元音字母序列的数目](./leetcode/leetcode1220-统计元音字母序列的数目.md)
 - [leetcode373-查找和最小的k对数](./leetcode/leetcode373-查找和最小的k对数.md)
 - [leetcode747-至少是其他数字两倍的最大数](./leetcode/leetcode747-至少是其他数字两倍的最大数.md)
 - [leetcode1995-统计特殊四元组](./leetcode/leetcode1995-统计特殊四元组.md)
