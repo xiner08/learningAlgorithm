@@ -1,4 +1,5 @@
-### ====== leetcode每日一题 ====== 37
+### ====== leetcode每日一题 ====== 38
+- [leetcode1668-比赛中的配对次数](./leetcode/leetcode1668-比赛中的配对次数.md)
 - [leetcode219-存在重复元素II](./leetcode/leetcode219-存在重复元素II.md)
 - [leetcode539-最小时间差](./leetcode/leetcode539-最小时间差.md)
 - [leetcode1220-统计元音字母序列的数目](./leetcode/leetcode1220-统计元音字母序列的数目.md)
