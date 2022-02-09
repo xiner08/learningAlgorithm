@@ -1,4 +1,5 @@
-### ====== leetcode每日一题 ====== 38
+### ====== leetcode每日一题 ====== 39
+- [leetcode1668-差的绝对值为K的数对数目](./leetcode/leetcode2006-差的绝对值为K的数对数目.md)
 - [leetcode1668-比赛中的配对次数](./leetcode/leetcode1668-比赛中的配对次数.md)
 - [leetcode219-存在重复元素II](./leetcode/leetcode219-存在重复元素II.md)
 - [leetcode539-最小时间差](./leetcode/leetcode539-最小时间差.md)
