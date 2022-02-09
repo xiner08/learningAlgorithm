@@ -15,8 +15,6 @@
     - [1,2,2,1]
     - [1,2,2,1]
     - [1,2,2,1]
-
-
 ##### 示例2:
 
     输入：nums = [1,3], k = 3
@@ -51,5 +49,23 @@ function searchNum(arr,x){
         return lastIndex - firstIndex + 1
     }
     return 0
+}
+```
+### 解题思路：使用map将每一个数存起来，然后在求和
+- 时间复杂度 O(n)
+```js
+/**
+ * @param {number[]} nums
+ * @param {number} k
+ * @return {number}
+ */
+var countKDifference = function(nums, k) {
+     let res = 0, n = nums.length
+    const map = new Map()
+    for (let j = 0; j < n; ++j) {
+        res += (map.get(nums[j] - k) || 0) + (map.get(nums[j] + k) || 0)
+        map.set(nums[j], (map.get(nums[j]) || 0) + 1)
+    }
+    return res
 }
 ```
