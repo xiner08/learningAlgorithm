@@ -1,4 +1,5 @@
-### ====== leetcode每日一题 ====== 40
+### ====== leetcode每日一题 ====== 41
+- [leetcode1984-学生分数的最小差值](./leetcode/leetcode1984-学生分数的最小差值.md)
 - [leetcode1447-最简分数](./leetcode/leetcode1447-最简分数.md)
 - [leetcode2006-差的绝对值为K的数对数目](./leetcode/leetcode2006-差的绝对值为K的数对数目.md)
 - [leetcode1668-比赛中的配对次数](./leetcode/leetcode1668-比赛中的配对次数.md)
