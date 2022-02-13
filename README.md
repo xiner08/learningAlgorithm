@@ -1,4 +1,5 @@
-### ====== leetcode每日一题 ====== 41
+### ====== leetcode每日一题 ====== 42
+- [leetcode1189气球的最大数量](./leetcode/leetcode1189-气球的最大数量.md)
 - [leetcode1984-学生分数的最小差值](./leetcode/leetcode1984-学生分数的最小差值.md)
 - [leetcode1447-最简分数](./leetcode/leetcode1447-最简分数.md)
 - [leetcode2006-差的绝对值为K的数对数目](./leetcode/leetcode2006-差的绝对值为K的数对数目.md)
