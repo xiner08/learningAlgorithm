@@ -32,6 +32,12 @@ var reverseOnlyLetters = function(s) {
     let newS = s.split('')
     let left = 0,right = s.length - 1
     while(left < right){
+        /***
+         * 
+         * isLetter 可以使用 /^[a-zA-Z]+$/ 全部使用正则进行验证
+         * 小写字母 code 97 - 122
+         * 大写字母 code 65 - 90
+         */
         const isLeftCode = isLetter(newS[left])
         const isRightCode = isLetter(newS[right])
         if(isLeftCode && isRightCode){
